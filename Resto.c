@@ -1,3 +1,4 @@
+//This is a Restaurant code. Well its not complete yet but i'll just put it here.
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
