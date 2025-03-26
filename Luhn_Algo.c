@@ -1,3 +1,4 @@
+//This is a code that representive Luhn algorithm.
 #include <stdio.h>
 #include <string.h>
 
