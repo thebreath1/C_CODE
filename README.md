@@ -1,1 +1,1 @@
-This repo is for bunches of C codes.
+THIS IS MY C REPOSITORIES.
