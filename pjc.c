@@ -5,8 +5,8 @@
 #include <string.h>
 
 struct kdm{
-    char khodam[5][30]; // Diperbaiki: urutan dimensi array
-    char keku[5][30];   // Diperbaiki: urutan dimensi array
+    char khodam[5][30]; // urutan dimensi array
+    char keku[5][30];   // urutan dimensi array
 };
 
 // Inisialisasi data khodam
@@ -51,14 +51,14 @@ int main(void){
     struct kdm khodam_data;
     char nama[20];
 
-    // Inisialisasi data khodam
+    // Menginisialisasi data khodam
     initKhodam(&khodam_data);
 
     do {
         printf("Input nama mu: ");
         fgets(nama, sizeof(nama), stdin);
 
-        // Hapus newline dari fgets
+        // Menghapus newline dari fgets
         nama[strcspn(nama, "\n")] = '\0';
 
         if(strlen(nama) == 0 || !validasiNama(nama)){
